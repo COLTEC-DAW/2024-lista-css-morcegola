@@ -4,10 +4,15 @@ body{
     font-family: 'Times New Roman', Times, serif;
     text-indent: 1em;
 }
+.page-wrapper{
+    margin-left: 0%;
+}
 p{
     color: #024959;
 }
-
+.intro{
+    text-align: center;
+}
 strong{
     color: #012E40;
 }
