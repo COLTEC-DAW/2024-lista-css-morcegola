@@ -1,0 +1,40 @@
+body{
+    background-color: #F2E3D5;
+    width: 1000px;
+    font-family: 'Times New Roman', Times, serif;
+    text-indent: 1em;
+}
+p{
+    color: #024959;
+}
+
+strong{
+    color: #012E40;
+}
+h1{
+    color: #012E40;
+    text-align: center;
+    text-indent: 1.8em;
+}
+h2{
+    color: #012E40;
+    text-align: center;
+    text-indent: 1.4em;
+}
+h3{
+    color: #012E40;
+    text-align: center;
+    text-indent: 1.3em;
+}
+a{
+    color: #026773;
+}
+main{
+    text-align: center;
+}
+main>p{
+    text-indent: 1.5em;
+}
+abbr{
+    font-variant: small-caps;
+}
