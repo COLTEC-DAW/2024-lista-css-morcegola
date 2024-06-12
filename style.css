@@ -1,0 +1,124 @@
+body{
+    background-color: #F2E3D5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-indent: 1em;
+    max-width: 1280px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.page-wrapper{
+    margin-left: 0%;
+    width: 1000px;
+    position:relative;
+}
+.explanation{
+    width: 60%;
+    margin-right: 35%;
+    border-right: solid 1px;
+    border-color: #1f295c;
+    padding-right: 2%;
+}
+.design-selection{      
+    text-align: center;
+    padding-left: 2%;
+    padding-right:2%;
+    top: 560px;
+    left: 62%;
+    position: absolute;
+}
+header{
+    background-color: #012E40;
+    color: #13b0c2;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+p{
+    color: #024959;
+    line-height: 1.5;
+}
+.intro{
+    text-align: center;
+    height: 550px;
+}
+strong{
+    color: #13b0c2;
+}
+h1{
+    display: inline-block;
+    color: #13b0c2;
+    text-align: center;
+    text-indent: 1.8em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+h2{
+    display: inline-block;
+    color: #13b0c2;
+    text-align: center;
+    text-indent: 1.4em;
+    margin-top: 0.5em;
+}
+h3{
+    color: #012E40;
+    text-align: center;
+    text-indent: 1.3em;
+    padding-left: 1.5em;
+}
+a{
+    color: #026773;
+}
+li{
+    list-style: none;
+    margin: 1em;
+    text-align: center;
+}
+main{
+    text-align: center;
+}
+main>p{
+    text-indent: 1.5em;
+}
+abbr{
+    font-variant: small-caps;
+}
+footer{
+    background-color: #012E40;
+    color: #13b0c2;
+    margin: 4% auto;
+    padding: 0.5em;
+    border: solid 2px;
+    display: block;
+}
+footer>a{
+    font-size: small;
+    border: solid 2px;
+    padding: 0.5em;
+    margin: 0.5em;
+    border-radius: 5px;
+    display: inline-block;
+    flex: 1;
+
+}
+#design-archives {
+    display: none;
+}
+.aside{
+    text-align: center;
+}
+#benefits{
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+#participation{
+    display: flex;
+    border-bottom: 2px solid black;
+    justify-content: space-between;
+    align-items: center;
+    border-top: none;
+}
+#benefits, #participation{
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
