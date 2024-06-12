@@ -95,7 +95,9 @@ footer>a{
     border: solid 2px;
     padding: 0.5em;
     margin: 0.5em;
+    border-radius: 5px;
     display: inline-block;
+    flex: 1;
 
 }
 #design-archives {
@@ -106,9 +108,17 @@ footer>a{
 }
 #benefits{
     display: flex;
-    border-bottom: 2px solid black;
+    align-items: center;
+    width: 70%;
 }
 #participation{
     display: flex;
     border-bottom: 2px solid black;
+    justify-content: space-between;
+    align-items: center;
+    border-top: none;
+}
+#benefits, #participation{
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
 }
