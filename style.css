@@ -19,11 +19,11 @@ body{
     padding-right: 2%;
 }
 .design-selection{      
-    text-align: right;
+    text-align: center;
     padding-left: 2%;
     padding-right:2%;
-    top: 460px;
-    left: 60%;
+    top: 560px;
+    left: 62%;
     position: absolute;
 }
 header{
@@ -85,9 +85,10 @@ footer{
     margin: 4%;
     padding: 0.5em;
     border: solid 2px;
+    display: block;
 }
 footer>a{
-    display: block;
+    font-size: small;
     border: solid 2px;
     padding: 0.5em;
 }
@@ -96,4 +97,12 @@ footer>a{
 }
 .aside{
     text-align: center;
+}
+#benefits{
+    display: flex;
+    border-bottom: 2px solid black;
+}
+#participation{
+    display: flex;
+    border-bottom: 2px solid black;
 }
